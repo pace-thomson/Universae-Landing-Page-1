@@ -1,4 +1,4 @@
-import combinedLogo from "../../../public/images/bitmap.png";
+import combinedLogo from "../../../public/images/univsersae&ut-logo.png";
 import headerImage from "../../../public/images/header_hero.jpg";
 
 
