@@ -57,20 +57,24 @@ const Scholarship = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 pt-4">
               {/* Requirements Grid */}
-              <div className="space-y-4">
+              <div className="">
                 <h4 className="font-semibold text-lg text-primary border-b border-primary pb-2 w-5/6">
                   Academic Requirements
                 </h4>
                 
-                <div className="flex items-center space-x-3">
+                <div className="mt-4 flex items-center space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
                   <div>
                     <span className="font-medium">Minimum Required GPA:</span>
-                    <span className="ml-2 text-primary font-bold">3.3 equivalent</span>
+                    <span className="ml-2 text-primary font-bold">8.0</span>
                   </div>
                 </div>
+                <p className="text-xs text-[#808080] ml-6 w-4/5">
+                  This is a representation of the actual requirement of a 3.3 GPA 
+                  in the US. A conversion will be done to evaluate during application.
+                </p>
 
-                <div className="flex items-center space-x-3">
+                <div className="mt-4 flex items-center space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
                   <div>
                     <span className="font-medium">Minimum Credit Hours:</span>
